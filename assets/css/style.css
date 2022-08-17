@@ -8,8 +8,8 @@
             --font-weight-bold:   700; 
             --headings-weight:    700;
             --headings-transform: none;        
-            --color:              #FFA400;  
-            --color-rgb:          255, 164, 0;   
+            --color:              #8ABCD7;  
+            --color-rgb:          138, 188, 215;   
       }
    html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -3661,4 +3661,18 @@ hr::before,
          img.is-loaded {
                opacity: 1;
                transition: opacity .6s cubic-bezier(.215,.61,.355,1), transform .2s ease-out!important; 
-         }
+         }/*
+ * Put your custom CSS code here
+ */
+#header .logo.logo-image {
+    background-color: #8ABCD7;
+}
+
+#header .logo.logo-image > img{
+    width:150px;
+}
+
+#header {
+    border: none;
+    padding-top: 2em;
+}
