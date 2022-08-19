@@ -108,7 +108,7 @@ var breakpoints=function(){"use strict";function e(e){t.init(e)}var t={list:null
 	// Toggle.
 		
 		// The HTML string to be appended
-		var html = '<a id="togglebtn" href="#sidebar" class="toggle">Toggle</a>';
+		var html = '<a id="togglebtn" href="#sidebar" class="toggle"><div></div><div></div><div></div></a>';
 
 		// append
 		$sidebar.insertAdjacentHTML('beforeend', html);
