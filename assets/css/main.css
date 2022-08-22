@@ -3647,3 +3647,6 @@ a#togglebtn > div {
   background-color: #8abcd7;
   margin: 6px 0;
 }
+.post__share>a>img[loading]{
+  opacity: 100;
+}
